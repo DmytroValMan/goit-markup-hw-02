@@ -41,6 +41,7 @@ body {
 }
 
 .link:hover,
+.link:focus,
 .link-address:hover,
 .link-address:focus,
 .link-logo:hover,
