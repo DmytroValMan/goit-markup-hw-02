@@ -1,2 +1,124 @@
 body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.list {
+  list-style-type: none;
+}
+.link,
+.link-studio {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.link-logo {
+  text-decoration: none;
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+}
+
+.link-address {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.link:hover,
+.link-studio:hover,
+.link-address:hover,
+.link-logo:hover {
+  text-decoration: none;
+  color: #404bbf;
+}
+
+.link-studio:active {
+  text-decoration: underline;
+  color: #404bbf;
+}
+
+.section-button,
+.footer {
+  background-color: #2e2f42;
+}
+
+.section-button-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section-button-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  text-align: center;
+  cursor: pointer;
+}
+
+.section-button-button:hover {
+  background-color: #404bbf;
+}
+
+.section-benefits,
+.section-our-team {
+  background: #f4f4fd;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-benefits-title,
+.section-our-team-title,
+.section-our-portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.section-benefits-text,
+.section-our-team-text,
+.section-our-portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
+
+.link-logo-footer {
+  color: #f4f4fd;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 3%;
 }
