@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -7,23 +7,28 @@ body {
 .list {
   list-style-type: none;
 }
-.link,
-.link-studio {
+.link {
   text-decoration: none;
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .link-logo {
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
-  color: #2e2f42;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-logo-studio {
+  color: #2e2f42;
 }
 
 .link-address {
@@ -31,21 +36,26 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
 .link:hover,
-.link-studio:hover,
 .link-address:hover,
-.link-logo:hover {
+.link-address:focus,
+.link-logo:hover,
+.link-logo:focus {
   text-decoration: none;
   color: #404bbf;
 }
 
-.link-studio:active {
+.link:active {
   text-decoration: underline;
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 
 .section-button,
@@ -56,23 +66,25 @@ body {
 .section-button-title {
   font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 
 .section-button-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04;
   color: #ffffff;
   background-color: #4d5ae5;
   text-align: center;
   cursor: pointer;
 }
 
-.section-button-button:hover {
+.section-button-button:hover,
+.section-button-button:focus {
   background-color: #404bbf;
 }
 
@@ -86,6 +98,7 @@ body {
   line-height: 1.11;
   letter-spacing: 2%;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -95,7 +108,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -107,18 +120,17 @@ body {
   letter-spacing: 0.02em;
 }
 
+.team-member {
+  background-color: #ffffff;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 
-.link-logo-footer {
+.footer-logo-studio {
   color: #f4f4fd;
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 3%;
 }
